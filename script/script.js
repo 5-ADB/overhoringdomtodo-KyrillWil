@@ -55,7 +55,7 @@ form.addEventListener("submit", function (e) {
   if (text !== "") {
     const li = document.createElement("li");
 
-    //naam geven van de winkel
+    //naam geven van de winkel bij tekst
     selectBox.addEventListener("change", (args)=>{
       const deWinkel = winkels.find(
         (winkel)=>winkel.id == args.target.value)
